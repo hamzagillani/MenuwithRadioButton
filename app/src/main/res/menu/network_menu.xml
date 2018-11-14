@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/id_none"
+            android:title="None">
+
+        </item>
+        <item
+            android:id="@+id/id_wifi"
+            android:title="Use Wifi">
+        </item>
+        <item
+            android:id="@+id/id_bluetooth"
+            android:title="Bluetooth">
+        </item>
+
+        <item
+            android:id="@+id/id_mobile_data"
+            android:title="Mobile Data">
+
+        </item>
+
+    </group>
+
+
+
+</menu>
